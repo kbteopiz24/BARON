@@ -1,0 +1,88 @@
+h1 {
+	font-family: "Bernadette";
+	color: #D4A017;
+	font-size: 80px;
+    text-align: center;
+}
+h2 {
+	font-family: "Bernadette";
+	font-size: 50px;
+	margin: 0px 0px 18px;
+	color: #D4A017;
+     text-align: center;
+}
+h3 {
+    font-family: "Bernadette";
+    color: #D4A017;
+    font-size: 60px;
+    text-align: center;
+}
+.content_items {
+    display: grid;
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.items img {
+    width: 60%;
+    height: 250px;
+    cursor: pointer;
+    transition: 0.2 ease;
+    object-fit: cover;
+    margin-left: 20%;
+}
+.items img:hover {
+    transform: scale(1.02);
+}
+.items h2 {
+    padding: 5px;
+    text-align: center;
+}
+.items button {
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: #D4A017;
+    cursor: pointer;
+    border-radius: 50%;
+    font size: 25px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.contact {
+
+}
+#contact {
+
+}
+.contact-text {
+
+}
+.contact-list {
+
+}
+.contact-icons {
+
+}
+.icon {
+  width:40px;
+  height: 40px;
+}
+.icon:hover {
+  width: 30px;
+  height: 30px;
+}
+.contactinfo-container {
+    top: 74%;
+    z-index: 2;
+    font-size: 50px;
+    background: whitesmoke;
+    padding: 30px;
+    color: #D4A017;
+    box-shadow: 3px 4px 6px;
+    font-family: "Bernadette";
+}
+.p {
+    font-size: 20;
+}
